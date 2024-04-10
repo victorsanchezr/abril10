@@ -1,16 +1,18 @@
-package com.softtek.presentacion.ejercicio2;
+package com.softtek.ejerciciosyfuncionales.presentacion.ejercicio2;
 
 import java.util.ArrayList;
-import java.util.Stack;
 import java.util.function.Function;
 
 public class Main {
 
     public static void main(String[] args) {
+
+
         ArrayList<Double> lista1 = new ArrayList<>();
         for (Double i = 1.0;i<=10;i++){
             lista1.add(i);
         }
+
         Function<ArrayList<Double> ,Stats> stas = x ->{
             Stats estadisticas = new Stats(lista1);
 
@@ -36,7 +38,7 @@ class Stats{
         Double aux = 0.0;
         for (int i = 0; i < numeros.size(); i++) {
 
-            if (numeros.get(i) >=aux){
+            if (numeros.get(i) >=aux){ //Buscar Collections.Max y min
                 aux = numeros.get(i);
             }
         }

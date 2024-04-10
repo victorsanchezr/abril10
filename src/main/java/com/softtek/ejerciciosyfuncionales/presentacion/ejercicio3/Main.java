@@ -1,4 +1,4 @@
-package com.softtek.presentacion.ejercicio3;
+package com.softtek.ejerciciosyfuncionales.presentacion.ejercicio3;
 
 import java.util.function.Function;
 

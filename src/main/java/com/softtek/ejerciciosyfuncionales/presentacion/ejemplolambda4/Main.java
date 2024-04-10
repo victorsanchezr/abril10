@@ -1,15 +1,4 @@
-package com.softtek.presentacion.ejemplolambda4;
-
-import jdk.jfr.DataAmount;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.function.*;
-import java.util.stream.Collectors;
+package com.softtek.ejerciciosyfuncionales.presentacion.ejemplolambda4;
 
 public class Main {
 

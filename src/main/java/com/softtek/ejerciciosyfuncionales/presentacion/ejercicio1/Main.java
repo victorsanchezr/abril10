@@ -1,8 +1,6 @@
-package com.softtek.presentacion.ejercicio1;
+package com.softtek.ejerciciosyfuncionales.presentacion.ejercicio1;
 
 import java.util.ArrayList;
-import java.util.Formattable;
-import java.util.List;
 import java.util.function.Function;
 
 public class Main {
